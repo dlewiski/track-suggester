@@ -2,21 +2,27 @@
 
 
 $(document).ready(function() {
-  $("#showAll").click(function() {
-    $(".tracks").toggle();
-  });
-
-  $("#survey").submit(function() {
-    // $(".tracks").hide();
+  $("#survey").submit(function(event) {
+    $("#ruby").hide();
+    $("#css").hide();
+    $("#java").hide();
+    
     var design = $("#designQuestion").val();
 
     if(design === "Design") {
-      $(".tracks#css").show();
+      $("#css").show();
     } else {
+      $("#css").hide();
       alert("try again");
     }
 
 
     event.preventDefault();
+  });
+
+  $("#showAll").click(function() {
+    $("#ruby").toggle();
+    $("#css").toggle();
+    $("#java").toggle();
   });
 });
