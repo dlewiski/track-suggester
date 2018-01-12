@@ -6,13 +6,16 @@ $(document).ready(function() {
     $("#ruby").hide();
     $("#css").hide();
     $("#java").hide();
-    
+
     var design = $("#designQuestion").val();
 
     if(design === "Design") {
       $("#css").show();
+    } else if(design === "Logic") {
+      $("#java").show();
     } else {
       $("#css").hide();
+      $("#java").hide();
       alert("try again");
     }
 
@@ -21,8 +24,8 @@ $(document).ready(function() {
   });
 
   $("#showAll").click(function() {
-    $("#ruby").toggle();
-    $("#css").toggle();
-    $("#java").toggle();
+    $("#ruby").show();
+    $("#css").show();
+    $("#java").show();
   });
 });
