@@ -21,36 +21,53 @@
           <label for="name">Name:</label>
           <input id="name" class="form-control" type="text">
         </div><br>
-        <select class="form-control" id="designQuestion">
-          <option>Select an option</option>
-          <option>Design</option>
-          <option>Logic</option>
-          <option>Not sure</option>
-        </select><br>
-        <select class="form-control" id="mobilQuestion">
+        <div class="form-group">
+          <label for="designQuestion">Logic or Design:</label>
+          <select class="form-control" id="designQuestion">
+            <option>Select an option</option>
+            <option>Design</option>
+            <option>Logic</option>
+            <option>Not sure</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="designQuestion">Interested in mobile development?</label>
+        <select class="form-control" id="mobileQuestion">
           <option>Select an option</option>
           <option>Yes</option>
           <option>No</option>
           <option>Not sure</option>
-        </select><br>
+        </select>
+      </div>
+        <div class="form-group">
+          <label for="designQuestion">Do you want to work for a startup or corporation?</label>
         <select class="form-control" id="startUpQuestion">
           <option>Select an option</option>
           <option>Startup</option>
           <option>Big Corporation</option>
           <option>Not sure</option>
-        </select><br>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="designQuestion">Are you more interested in a niche language or a more broadly used language?</label>
         <select class="form-control" id="nicheQuestion">
           <option>Select an option</option>
           <option>Niche Language</option>
           <option>High Demand Language</option>
           <option>Not sure</option>
-        </select><br>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="designQuestion">Do are you more interested in the back-end or front-end of programming?</label>
         <select class="form-control" id="backEndQuestion">
           <option>Select an option</option>
           <option>Back-End</option>
           <option>Front-End</option>
           <option>Not sure</option>
-        </select><br>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="designQuestion">Select which logo you like the best!</label>
         <select class="form-control" id="logoQuestion">
           <option>Select an option</option>
           <option>Ruby logo</option>
@@ -58,7 +75,8 @@
           <option>Jave logo</option>
           <option>android logo</option>
           <option>Not sure</option>
-        </select><br>
+        </select>
+      </div>
         <button type="submit" class="btn">Submit form</button>
       </form>
 
