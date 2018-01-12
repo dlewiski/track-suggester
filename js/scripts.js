@@ -13,11 +13,19 @@ $(document).ready(function() {
       $("#css").show();
     } else if(design === "Logic") {
       $("#java").show();
+    } else if(design === "Not sure") {
+      alert("That's ok!");
+      $("#ruby").show();
+      $("#css").show();
+      $("#java").show();
     } else {
       $("#css").hide();
       $("#java").hide();
       alert("try again");
     }
+
+
+
 
 
     event.preventDefault();
