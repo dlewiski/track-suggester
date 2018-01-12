@@ -2,5 +2,7 @@
 
 
 $(document).ready(function() {
-  alert("hello world");
+  $("#showAll").click(function() {
+    $(".tracks").toggle();
+  });
 });

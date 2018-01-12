@@ -1,7 +1,16 @@
+.tracks {
+  display: none;
+}
+
 h1 {
   color: lightblue;
 }
 
 .container {
   text-align: center;
+}
+
+#showAll {
+  color: blue;
+  text-decoration: underline;;
 }
