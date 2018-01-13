@@ -7,7 +7,11 @@ $(document).ready(function() {
     $("#css").hide();
     $("#java").hide();
 
+    var name = $("#name").val();
     var design = $("#designQuestion").val();
+
+    $("#listName").text(name);
+    $("#trackAnnounce").show();
 
     if(design === "Design") {
       $("#css").show();
@@ -24,10 +28,6 @@ $(document).ready(function() {
       alert("try again");
     }
 
-
-
-
-
     event.preventDefault();
   });
 
@@ -35,5 +35,6 @@ $(document).ready(function() {
     $("#ruby").show();
     $("#css").show();
     $("#java").show();
+    $("#trackAnnounce").hide();
   });
 });
