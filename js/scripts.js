@@ -10,8 +10,10 @@ $(document).ready(function() {
     var name = $("#name").val();
     var design = $("#designQuestion").val();
 
+    if (name != "") {
     $("#listName").text(name);
     $("#trackAnnounce").show();
+    }
 
     if(design === "Design") {
       $("#css").show();

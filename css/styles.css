@@ -2,10 +2,17 @@
   display: none;
 }
 
+body {
+  background-color: lightblue;
+}
+
 h1 {
   color: lightblue;
 }
 
+.jumbotron{
+  margin-top: 40px;
+}
 .container {
   text-align: center;
 }
