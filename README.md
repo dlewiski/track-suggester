@@ -1,6 +1,6 @@
 # _Task Suggester_
 
-#### _A website that will display a Epicodus language track, January 12, 2018_
+#### _A website that will display an Epicodus language track, January 12, 2018_
 
 #### By _**David Lewis**_
 
